@@ -8,10 +8,11 @@
     <title > Dhananjaya's Portfolio</title>
   </head>
   <body class = "container">
+    {% include 'nav.html' %}
     <h1 class = "text-center mt-5 mb-3 fw-bold" >DHANANJAYA's PORTFOLIO</h1>
     <h3 class = "fst-italic">"Navigating the Digital Horizon: Unleashing the Power of Technology in Career and Life. Embrace the Future with Passion and Innovation."
 </h3>
-    <img class = "img-fluid img-thumbnail" src = "https://jovianjobwebsite--dkulal26.repl.co/static/banner1.png" height = "320" width = "100%" object-fit : cover>
+    <img class = "img-fluid img-thumbnail" src = "static/banner1.png" height = "320" width = "100%" object-fit : cover>
     <h2 class = "fw-bold mt-5 mb-3 ">About Me</h2>
     <p class = "font-monospace">Passionate about transforming data into insights, I am a tech enthusiast on a journey to unravel the complexities of bioinformatics and data science. With an MSc in Bioinformatics, my skills extend from programming languages like Python and R to crafting machine learning models for breast cancer screening. Beyond the code, I am a seeker of knowledge, exploring the intersection of life's paradoxes and the boundless realms of information technology. Join me on this exhilarating odyssey as I embrace the beauty in contradictions, decode data, and engineer a future where technology and life harmoniously coexist.</p>
     <div class="container mt-3 mb-2">
@@ -42,7 +43,7 @@
     </button>
       <p class = "mt-4">Copyright 2023, Dhananjaya Kulal</p>
     </div>
-
+    {% include 'footer.html' %}
   </body> 
   
 </html>
